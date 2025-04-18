@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>📝 Notes App</h1>
+        <button id="toggle-theme">🌙 Dark Mode</button>
+        
+        <div class="toolbar">
+            <button id="bold-btn"><b>B</b></button>
+            <button id="italic-btn"><i>I</i></button>
+            <button id="underline-btn"><u>U</u></button>
+            <button id="list-btn">• List</button>
+        </div>
+        
+        <div id="note" contenteditable="true" class="editor"></div>
+        <button id="save-btn">Save Note</button>
+        
+        <h2>Saved Notes</h2>
+        <div id="notes-list"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

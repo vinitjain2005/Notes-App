@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f9fa;
+    color: #333;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 8px 12px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    background: #007bff;
+    color: white;
+    border-radius: 4px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.toolbar button {
+    background: #ddd;
+    color: black;
+}
+
+.toolbar button:hover {
+    background: #bbb;
+}
+
+.editor {
+    width: 100%;
+    min-height: 100px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #000; /* Ensure text is visible in light mode */
+    background: white;
+}
+
+.note-item {
+    background: #e9ecef;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    color: #000;
+}
+
+/* 🔥 DARK MODE STYLES FIXED 🔥 */
+.dark-mode {
+    background: #1e1e1e;
+    color: white;
+}
+
+.dark-mode .container {
+    background: #2c2c2c;
+    color: white;
+}
+
+.dark-mode .editor {
+    background: #444;
+    color: white; /* ✅ Text is now visible in dark mode */
+    border: 1px solid #666;
+}
+
+.dark-mode .note-item {
+    background: #555;
+    color: white;
+}
+
+.dark-mode button {
+    background: #666;
+    color: white;
+}
+
+.dark-mode button:hover {
+    background: #444;
+}
