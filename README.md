@@ -15,10 +15,6 @@ A simple and efficient Notes App built using HTML, CSS, and JavaScript. This app
 - CSS
 - JavaScript (Vanilla)
 
-## 📸 Screenshots
-
-> (You can add screenshots of your app here)
-
 ## 📦 Installation
 
 1. Clone the repository:
